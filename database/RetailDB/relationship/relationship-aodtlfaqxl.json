@@ -1,0 +1,26 @@
+{
+	"name": "relationship-aodtlfaqxl",
+	"properties": {
+		"Name": "relationship-aodtlfaqxl",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "RetailDB"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Customer",
+		"ToTableName": "SalesOrder",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "CustomerId",
+				"ToColumnName": "CustomerId"
+			}
+		],
+		"RelationshipType": 0,
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "71ea9be5-1279-4ad7-8a54-6e0693f4b61d"
+	},
+	"type": "RELATIONSHIP"
+}
